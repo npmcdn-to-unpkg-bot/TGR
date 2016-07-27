@@ -5,9 +5,11 @@ var gulpSourcemaps = require('gulp-sourcemaps');
 
 var del = require('del');
 
-var appDev = 'src-web/src/';
+var appDev = 'src-web/app/';
 var appProd = 'public/js/src/';
 var vendor = 'public/js/vendor';
+var appDevNat = 'src-nativescript/app/src';
+var appDevWeb = 'src-web/app/src/';
 
 var tsconfig = gulpTypescript.createProject('tsconfig.json');
 
@@ -26,6 +28,11 @@ gulp.task('build-copy', function() {
 
 gulp.task('clean', function() {
     del(appProd + '/**/*');
+});
+
+gulp.task('copy-web', function () {
+  return gulp.src(appDevWeb + '/**/*.ts')
+    .pipe(gulp.dest(appDevNat));
 });
 
 gulp.task('vendor', function() {

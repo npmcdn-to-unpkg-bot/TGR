@@ -91,13 +91,13 @@ var CollapseDirective = (function () {
                   height: '0',
                   overflow: 'hidden'
                 });
-    
+
               this.animation.start(this._el.nativeElement)
                 .onComplete(() => {
                   if (this._el.nativeElement.offsetHeight === 0) {
                     this.display = 'none';
                   }
-    
+
                   this.isCollapse = true;
                   this.isCollapsing = false;
                 });
@@ -126,7 +126,7 @@ var CollapseDirective = (function () {
               .setToStyles({
                 height: this._el.nativeElement.scrollHeight + 'px'
               });
-    
+
             this.animation.start(this._el.nativeElement)
               .onComplete(() => {
                 this.isCollapse = true;
@@ -137,33 +137,33 @@ var CollapseDirective = (function () {
           }, 4);*/
     };
     __decorate([
-        core_1.HostBinding('style.display'), 
+        core_1.HostBinding('style.display'),
         __metadata('design:type', String)
     ], CollapseDirective.prototype, "display", void 0);
     __decorate([
         core_1.HostBinding('class.in'),
-        core_1.HostBinding('attr.aria-expanded'), 
+        core_1.HostBinding('attr.aria-expanded'),
         __metadata('design:type', Boolean)
     ], CollapseDirective.prototype, "isExpanded", void 0);
     __decorate([
-        core_1.HostBinding('attr.aria-hidden'), 
+        core_1.HostBinding('attr.aria-hidden'),
         __metadata('design:type', Boolean)
     ], CollapseDirective.prototype, "isCollapsed", void 0);
     __decorate([
-        core_1.HostBinding('class.collapse'), 
+        core_1.HostBinding('class.collapse'),
         __metadata('design:type', Boolean)
     ], CollapseDirective.prototype, "isCollapse", void 0);
     __decorate([
-        core_1.HostBinding('class.collapsing'), 
+        core_1.HostBinding('class.collapsing'),
         __metadata('design:type', Boolean)
     ], CollapseDirective.prototype, "isCollapsing", void 0);
     __decorate([
-        core_1.Input(), 
-        __metadata('design:type', Boolean), 
+        core_1.Input(),
+        __metadata('design:type', Boolean),
         __metadata('design:paramtypes', [Boolean])
     ], CollapseDirective.prototype, "collapse", null);
     CollapseDirective = __decorate([
-        core_1.Directive({ selector: '[collapse]' }), 
+        core_1.Directive({ selector: '[collapse]' }),
         __metadata('design:paramtypes', [core_1.ElementRef, core_1.Renderer])
     ], CollapseDirective);
     return CollapseDirective;

@@ -77,7 +77,7 @@ var ComponentsHelper = (function () {
         });
     };
     ComponentsHelper = __decorate([
-        core_1.Injectable(), 
+        core_1.Injectable(),
         __metadata('design:paramtypes', [core_1.ApplicationRef, core_1.ComponentResolver, core_1.Injector])
     ], ComponentsHelper);
     return ComponentsHelper;
