@@ -1,6 +1,15 @@
 /// <reference path="../typings.d.ts" />
 import { bootstrap } from '@angular/platform-browser-dynamic';
 
+
+//main component
 import { AppComponent } from './src/app.component';
 
-bootstrap(AppComponent);
+//services
+import {Auth} from "./src/services/auth.service";
+
+
+
+bootstrap(AppComponent, [
+    Auth
+]);
