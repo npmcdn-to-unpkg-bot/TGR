@@ -1,5 +1,7 @@
 import {Component} from "@angular/core";
 import {Auth} from "./services/auth.service";
+import { ROUTER_DIRECTIVES } from '@angular/router';
+
 
 
 @Component({
