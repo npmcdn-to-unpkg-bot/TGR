@@ -1,15 +1,16 @@
-import {Component} from "@angular/core";
-import {Auth} from "./services/auth.service";
+import { Component } from "@angular/core";
 import { ROUTER_DIRECTIVES } from '@angular/router';
-
-
+import {CORE_DIRECTIVES} from "@angular/common";
+import {FORM_DIRECTIVES} from "@angular/forms";
+import {NavigationComponent} from "./navigation/navigation.component";
+import {FooterComponent} from "./footer/footer.component";
 
 @Component({
     moduleId: module.id,
-    providers: [ Auth ],
     selector: "my-app",
-    templateUrl: "app.component.html"
+    templateUrl: "app.component.html",
+    directives: [ ROUTER_DIRECTIVES, CORE_DIRECTIVES, FORM_DIRECTIVES, FooterComponent, NavigationComponent]
 })
 export class AppComponent {
-    constructor(private auth: Auth) {}
+
 }
