@@ -13,11 +13,15 @@ var ForgotPasswordComponent = (function () {
     function ForgotPasswordComponent() {
     }
     ForgotPasswordComponent = __decorate([
-        core_1.Component({}), 
+        core_1.Component({
+            moduleId: module.id,
+            selector: 'forgot-password',
+            templateUrl: 'forgotPassword.component.html'
+        }), 
         __metadata('design:paramtypes', [])
     ], ForgotPasswordComponent);
     return ForgotPasswordComponent;
 }());
 exports.ForgotPasswordComponent = ForgotPasswordComponent;
 
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9mb3Jnb3RQYXNzd29yZC9mb3Jnb3RQYXNzd29yZC5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBLHFCQUF3QixlQUFlLENBQUMsQ0FBQTtBQU14QztJQUFBO0lBRUEsQ0FBQztJQU5EO1FBQUMsZ0JBQVMsQ0FBQyxFQUVWLENBQUM7OytCQUFBO0lBSUYsOEJBQUM7QUFBRCxDQUZBLEFBRUMsSUFBQTtBQUZZLCtCQUF1QiwwQkFFbkMsQ0FBQSIsImZpbGUiOiJzcmMvZm9yZ290UGFzc3dvcmQvZm9yZ290UGFzc3dvcmQuY29tcG9uZW50LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtDb21wb25lbnR9IGZyb20gXCJAYW5ndWxhci9jb3JlXCI7XG5cbkBDb21wb25lbnQoe1xuXG59KVxuXG5leHBvcnQgY2xhc3MgRm9yZ290UGFzc3dvcmRDb21wb25lbnQge1xuXG59Il19
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9mb3Jnb3RQYXNzd29yZC9mb3Jnb3RQYXNzd29yZC5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBLHFCQUF3QixlQUFlLENBQUMsQ0FBQTtBQVF4QztJQUFBO0lBRUEsQ0FBQztJQVJEO1FBQUMsZ0JBQVMsQ0FBQztZQUNQLFFBQVEsRUFBRSxNQUFNLENBQUMsRUFBRTtZQUNuQixRQUFRLEVBQUUsaUJBQWlCO1lBQzNCLFdBQVcsRUFBRSwrQkFBK0I7U0FDL0MsQ0FBQzs7K0JBQUE7SUFJRiw4QkFBQztBQUFELENBRkEsQUFFQyxJQUFBO0FBRlksK0JBQXVCLDBCQUVuQyxDQUFBIiwiZmlsZSI6InNyYy9mb3Jnb3RQYXNzd29yZC9mb3Jnb3RQYXNzd29yZC5jb21wb25lbnQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0NvbXBvbmVudH0gZnJvbSBcIkBhbmd1bGFyL2NvcmVcIjtcblxuQENvbXBvbmVudCh7XG4gICAgbW9kdWxlSWQ6IG1vZHVsZS5pZCxcbiAgICBzZWxlY3RvcjogJ2ZvcmdvdC1wYXNzd29yZCcsXG4gICAgdGVtcGxhdGVVcmw6ICdmb3Jnb3RQYXNzd29yZC5jb21wb25lbnQuaHRtbCdcbn0pXG5cbmV4cG9ydCBjbGFzcyBGb3Jnb3RQYXNzd29yZENvbXBvbmVudCB7XG5cbn0iXX0=
