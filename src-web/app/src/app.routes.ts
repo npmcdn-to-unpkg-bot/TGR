@@ -4,6 +4,7 @@ import { SignInComponent } from "./signin/signin.component";
 import { HomeComponent } from "./home/home.component";
 import { PageNotFoundComponent } from "./pageNotFound/pageNotFound.component";
 import {ForgotPasswordComponent} from "./forgotPassword/forgotPassword.component";
+import {AboutSite} from "./aboutSite/aboutSite.component";
 
 
 const routes: RouterConfig = [
@@ -11,6 +12,7 @@ const routes: RouterConfig = [
     { path: 'login', component: SignInComponent },
     { path: 'signup', component: SignUpComponent },
     { path: 'forgot-password', component: ForgotPasswordComponent},
+    { path: 'about', component: AboutSite },
     { path: '**', component: PageNotFoundComponent}
 ];
 
