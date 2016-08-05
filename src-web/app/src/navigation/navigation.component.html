@@ -26,9 +26,8 @@
             </form>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="btn btn-primary" (click)="lgModal.show()">Log In modal</a></li>
+                <li><a class="btn btn-primary" (click)="lgModal.show()">Log In</a></li>
                 <li><a routerLink="/signup" routerLinkActive="active">Sign Up</a></li>
-                <li><a routerLink="/login" routerLinkActive="active">Log In</a></li>
                 <li><a routerLink="" routerLinkActive="active">Sign Out</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
@@ -38,16 +37,7 @@
 <div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" (click)="lgModal.hide()" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <h4 class="modal-title">Large modal</h4>
-            </div>
-            <div class="modal-body">
-                <sign-in></sign-in>
-            </div>
+            <auth-accordion></auth-accordion>
         </div>
     </div>
-
 </div>

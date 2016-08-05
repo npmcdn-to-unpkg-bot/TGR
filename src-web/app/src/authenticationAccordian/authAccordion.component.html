@@ -1,0 +1,15 @@
+<accordion [closeOthers]="oneAtATime">
+    <accordion-group heading="Login"
+                 [isOpen]="status.isFirstOpen"
+                 [isDisabled]="status.isFirstDisabled">
+    <sign-in></sign-in>
+    </accordion-group>
+
+    <accordion-group heading="Forgot Password?">
+        <forgot-password></forgot-password>
+    </accordion-group>
+
+    <accordion-group heading="Do not have an account?">
+        <sign-up></sign-up>
+    </accordion-group>
+</accordion>
