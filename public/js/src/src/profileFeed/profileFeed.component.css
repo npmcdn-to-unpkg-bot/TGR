@@ -1,0 +1,11 @@
+.profile-feed-container #gold {
+  color: #DAA520; }
+
+.profile-feed-container #silver {
+  color: #C0C0C0; }
+
+.profile-feed-container #bronze {
+  color: #CD7F32; }
+
+.profile-feed-container .profile-detail-summary img {
+  width: 100px; }

@@ -9,6 +9,8 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" routerLink="">Home</a>
+            <a class="navbar-brand" routerLink="/profile-feed">Profile</a>
+            <a class="navbar-brand" routerLink="/view-profile">VIEWPROFILE</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -26,8 +28,9 @@
             </form>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="btn btn-primary" (click)="lgModal.show()">Log In</a></li>
-                <li><a routerLink="/signup" routerLinkActive="active">Sign Up</a></li>
+                <li><a routerLink="" routerLinkActive="active">Help</a></li>
+                <li><a (click)="lgModal.show()">Log In</a></li>
+                <li><a (click)="lgModal.show()">Sign Up</a></li>
                 <li><a routerLink="" routerLinkActive="active">Sign Out</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
@@ -37,6 +40,9 @@
 <div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
+            <button type="button" class="close" (click)="lgModal.hide()" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
             <auth-accordion></auth-accordion>
         </div>
     </div>
