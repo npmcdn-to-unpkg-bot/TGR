@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df80e4b-55de-42ca-9e44-f9e221acdf28" name="Default" comment="http://localhost:3000">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-web/app/src/profileFeed/profileFeed.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-web/app/src/profileFeed/profileFeed.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-web/app/src/profileFeed/profileFeed.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-web/app/src/questions/questions.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-web/app/src/questions/questions.component.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-web/app/src/questions/questions.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/src/src/app.routes.js" afterPath="$PROJECT_DIR$/public/js/src/src/app.routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/src/src/help/help.component.js" afterPath="$PROJECT_DIR$/public/js/src/src/help/help.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/src/src/navigation/navigation.component.html" afterPath="$PROJECT_DIR$/public/js/src/src/navigation/navigation.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-web/app/src/app.routes.ts" afterPath="$PROJECT_DIR$/src-web/app/src/app.routes.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-web/app/src/help/help.component.ts" afterPath="$PROJECT_DIR$/src-web/app/src/help/help.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-web/app/src/navigation/navigation.component.html" afterPath="$PROJECT_DIR$/src-web/app/src/navigation/navigation.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/src/src/viewProfile/viewProfile.component.html" afterPath="$PROJECT_DIR$/public/js/src/src/viewProfile/viewProfile.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.html" afterPath="$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.html" />
     </list>
     <ignored path="TGR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,46 +27,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="navigation.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src-web/app/src/navigation/navigation.component.html">
+      <file leaf-file-name="questions.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src-web/app/src/questions/questions.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.routes.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src-web/app/src/app.routes.ts">
+      <file leaf-file-name="questions.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src-web/app/src/questions/questions.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewProfile.component.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewProfile.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.html">
+      <file leaf-file-name="questions.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src-web/app/src/questions/questions.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="63" column="154" selection-start-line="63" selection-start-column="154" selection-end-line="63" selection-end-column="154" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,9 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application.js" />
-        <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/app.component.html" />
         <option value="$PROJECT_DIR$/src-web/typings.d.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src-web/boot.ts" />
@@ -138,6 +113,9 @@
         <option value="$PROJECT_DIR$/src-web/app/src/profileFeed/profileFeed.component.html" />
         <option value="$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.scss" />
         <option value="$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.html" />
+        <option value="$PROJECT_DIR$/src-web/app/src/questions/questions.component.ts" />
+        <option value="$PROJECT_DIR$/src-web/app/src/questions/questions.component.scss" />
+        <option value="$PROJECT_DIR$/src-web/app/src/questions/questions.component.html" />
       </list>
     </option>
   </component>
@@ -148,10 +126,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1280" />
-    <option name="y" value="-96" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="1057" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -286,7 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="viewProfile" />
+              <option name="myItemId" value="questions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,32 +290,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="profileFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TGR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TGR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navigation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,15 +396,15 @@
       <workItem from="1469036601923" duration="52680000" />
       <workItem from="1469638042786" duration="1602000" />
       <workItem from="1469651748529" duration="16430000" />
-      <workItem from="1469917663226" duration="30517000" />
+      <workItem from="1469917663226" duration="33827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102393000" />
+    <option name="totallyTimeSpent" value="105703000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1280" y="-96" width="1280" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="733" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4959514" order="0" side_tool="false" content_ui="combo" />
@@ -510,15 +461,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src-web/app/src/signin.component.ts" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-web/app/routes.ts" />
     <entry file="file://$PROJECT_DIR$/src-nativescript/app/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -866,22 +808,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src-web/app/src/app.routes.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-web/app/src/profileFeed/profileFeed.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -894,21 +845,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.scss">
+    <entry file="file://$PROJECT_DIR$/src-web/app/src/questions/questions.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-web/app/src/viewProfile/viewProfile.component.html">
+    <entry file="file://$PROJECT_DIR$/src-web/app/src/questions/questions.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="63" column="154" selection-start-line="63" selection-start-column="154" selection-end-line="63" selection-end-column="154" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-web/app/src/profileFeed/profileFeed.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="60" column="166" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="166" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-web/app/src/questions/questions.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>
