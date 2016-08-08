@@ -1,0 +1,16 @@
+.questions-wrapper .jw-play {
+  background-color: #00d4b4;
+  width: 300px;
+  height: 200px; }
+
+.questions-wrapper .discussion-area h2 {
+  text-align: center; }
+
+.questions-wrapper .discussion-area img {
+  max-width: 150px; }
+
+.questions-wrapper .discussion-area hr {
+  width: 100%; }
+
+.questions-wrapper .discussion-area p {
+  margin-top: 10px; }

@@ -5,6 +5,7 @@ import {AboutSite} from "./aboutSite/aboutSite.component";
 import {HelpComponent} from "./help/help.component";
 import {ProfileFeedComponent} from "./profileFeed/profileFeed.component";
 import {VisitedProfileComponent} from "./viewProfile/viewProfile.component";
+import {QuestionComponent} from "./questions/question.component";
 
 //place routes in alphabetical order
 const routes = [
@@ -12,6 +13,7 @@ const routes = [
     {path: 'about', component: AboutSite},
     {path: 'help', component: HelpComponent},
     {path: 'profile-feed', component: ProfileFeedComponent},
+    {path: 'question', component: QuestionComponent},
     {path: 'view-profile', component: VisitedProfileComponent},
     {path: '**', component: PageNotFoundComponent}
 ];

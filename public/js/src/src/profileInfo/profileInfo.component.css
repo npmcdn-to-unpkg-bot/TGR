@@ -1,0 +1,16 @@
+.profile-info #profile-image img {
+  max-height: 150px; }
+
+.profile-info #profile-image h5 {
+  max-width: 150px;
+  text-align: center;
+  font-size: large; }
+
+.profile-info #gold {
+  color: #DAA520; }
+
+.profile-info #silver {
+  color: #C0C0C0; }
+
+.profile-info #bronze {
+  color: #CD7F32; }

@@ -1,0 +1,24 @@
+.profile-info {
+  #profile-image {
+    img {
+      max-height: 150px;
+    }
+    h5{
+      max-width: 150px;
+      text-align: center;
+      font-size: large;
+    }
+
+  }
+  #gold {
+    color: #DAA520
+  }
+
+  #silver {
+    color: #C0C0C0;
+  }
+
+  #bronze {
+    color: #CD7F32;
+  }
+}
