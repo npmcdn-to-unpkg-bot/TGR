@@ -7,7 +7,6 @@
  */
 "use strict";
 var wtf_impl_1 = require('./wtf_impl');
-// Change exports to const once https://github.com/angular/ts2dart/issues/150
 /**
  * True if WTF is enabled.
  */
@@ -40,7 +39,7 @@ function noopScope(arg0, arg1) {
  * you don't add them to ensure that `wtfLeave` gets called. In production `wtfLeave` is a noop and
  * so try-finally block has no value. When debugging perf issues, skipping `wtfLeave`, do to
  * exception, will produce incorrect trace, but presence of exception signifies logic error which
- * needs to be fixed before the src should be profiled. Add try-finally only when you expect that
+ * needs to be fixed before the app should be profiled. Add try-finally only when you expect that
  * an exception is expected during normal execution while profiling.
  *
  * @experimental

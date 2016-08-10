@@ -12,7 +12,7 @@ export declare const formDirectiveProvider: any;
  *
  * ### Typical Use
  *
- * Include `FORM_DIRECTIVES` in the `directives` section of a {@link View} annotation
+ * Include `FORM_DIRECTIVES` in the `directives` section of a {@link Component} annotation
  * to use `NgForm` and its associated controls.
  *
  * ### Structure
@@ -28,7 +28,7 @@ export declare const formDirectiveProvider: any;
  *
  *  ```typescript
  * @Component({
- *   selector: 'my-src',
+ *   selector: 'my-app',
  *   template: `
  *     <div>
  *       <p>Submit the form to see the data object Angular builds</p>
@@ -84,5 +84,9 @@ export declare class NgForm extends ControlContainer implements Form {
     removeFormGroup(dir: NgModelGroup): void;
     getFormGroup(dir: NgModelGroup): FormGroup;
     updateModel(dir: NgControl, value: any): void;
+    setValue(value: {
+        [key: string]: any;
+    }): void;
     onSubmit(): boolean;
+    onReset(): void;
 }

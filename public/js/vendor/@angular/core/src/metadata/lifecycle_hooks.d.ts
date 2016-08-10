@@ -64,7 +64,7 @@ export declare var LIFECYCLE_HOOKS_VALUES: LifecycleHooks[];
  * }
  *
  * @Component({
- *   selector: 'src',
+ *   selector: 'app',
  *   template: `
  *     <button (click)="value = value + 1">Change MyComponent</button>
  *     <my-cmp [my-prop]="value"></my-cmp>`,
@@ -79,7 +79,7 @@ export declare var LIFECYCLE_HOOKS_VALUES: LifecycleHooks[];
  * @stable
  */
 export declare abstract class OnChanges {
-    abstract ngOnChanges(changes: SimpleChanges): any;
+    abstract ngOnChanges(changes: SimpleChanges): void;
 }
 /**
  * Implement this interface to execute custom initialization logic after your directive's
@@ -107,7 +107,7 @@ export declare abstract class OnChanges {
  * }
  *
  * @Component({
- *   selector: 'src',
+ *   selector: 'app',
  *   template: `
  *     <button (click)="hasChild = !hasChild">
  *       {{hasChild ? 'Destroy' : 'Create'}} MyComponent
@@ -124,7 +124,7 @@ export declare abstract class OnChanges {
  * @stable
  */
 export declare abstract class OnInit {
-    abstract ngOnInit(): any;
+    abstract ngOnInit(): void;
 }
 /**
  * Implement this interface to supplement the default change detection algorithm in your directive.
@@ -180,7 +180,7 @@ export declare abstract class OnInit {
  * }
  *
  * @Component({
- *   selector: 'src',
+ *   selector: 'app',
  *   template: `
  *     <button (click)="list.push(list.length)">Push</button>
  *     <button (click)="list.pop()">Pop</button>
@@ -194,7 +194,7 @@ export declare abstract class OnInit {
  * @stable
  */
 export declare abstract class DoCheck {
-    abstract ngDoCheck(): any;
+    abstract ngDoCheck(): void;
 }
 /**
  * Implement this interface to get notified when your directive is destroyed.
@@ -220,7 +220,7 @@ export declare abstract class DoCheck {
  * }
  *
  * @Component({
- *   selector: 'src',
+ *   selector: 'app',
  *   template: `
  *     <button (click)="hasChild = !hasChild">
  *       {{hasChild ? 'Destroy' : 'Create'}} MyComponent
@@ -287,7 +287,7 @@ export declare abstract class DoCheck {
  * @stable
  */
 export declare abstract class OnDestroy {
-    abstract ngOnDestroy(): any;
+    abstract ngOnDestroy(): void;
 }
 /**
  * Implement this interface to get notified when your directive's content has been fully
@@ -327,7 +327,7 @@ export declare abstract class OnDestroy {
  * }
  *
  * @Component({
- *   selector: 'src',
+ *   selector: 'app',
  *   template: `
  *     <parent-cmp>
  *       <child-cmp where="content"></child-cmp>
@@ -342,7 +342,7 @@ export declare abstract class OnDestroy {
  * @stable
  */
 export declare abstract class AfterContentInit {
-    abstract ngAfterContentInit(): any;
+    abstract ngAfterContentInit(): void;
 }
 /**
  * Implement this interface to get notified after every check of your directive's content.
@@ -375,7 +375,7 @@ export declare abstract class AfterContentInit {
  * }
  *
  * @Component({
- *   selector: 'src',
+ *   selector: 'app',
  *   template: `
  *     <parent-cmp>
  *       <button (click)="hasContent = !hasContent">Toggle content child</button>
@@ -392,7 +392,7 @@ export declare abstract class AfterContentInit {
  * @stable
  */
 export declare abstract class AfterContentChecked {
-    abstract ngAfterContentChecked(): any;
+    abstract ngAfterContentChecked(): void;
 }
 /**
  * Implement this interface to get notified when your component's view has been fully initialized.
@@ -429,7 +429,7 @@ export declare abstract class AfterContentChecked {
  * }
  *
  * @Component({
- *   selector: 'src',
+ *   selector: 'app',
  *   template: `<parent-cmp></parent-cmp>`,
  *   directives: [ParentComponent]
  * })
@@ -441,7 +441,7 @@ export declare abstract class AfterContentChecked {
  * @stable
  */
 export declare abstract class AfterViewInit {
-    abstract ngAfterViewInit(): any;
+    abstract ngAfterViewInit(): void;
 }
 /**
  * Implement this interface to get notified after every check of your component's view.
@@ -481,7 +481,7 @@ export declare abstract class AfterViewInit {
  * }
  *
  * @Component({
- *   selector: 'src',
+ *   selector: 'app',
  *   template: `<parent-cmp></parent-cmp>`,
  *   directives: [ParentComponent]
  * })
@@ -493,5 +493,5 @@ export declare abstract class AfterViewInit {
  * @stable
  */
 export declare abstract class AfterViewChecked {
-    abstract ngAfterViewChecked(): any;
+    abstract ngAfterViewChecked(): void;
 }

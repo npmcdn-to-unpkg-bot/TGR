@@ -23,7 +23,7 @@ export declare const formControlBinding: any;
  *
  *  ```typescript
  * @Component({
- *   selector: 'my-src',
+ *   selector: 'my-app',
  *   template: `
  *     <div>
  *       <h2>NgFormControl Example</h2>

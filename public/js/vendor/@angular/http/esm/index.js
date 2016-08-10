@@ -6,4 +6,4 @@
  * found in the LICENSE file at https://angular.io/license
  */
 export * from './http';
-//# sourceMappingURL=src.js.map
+//# sourceMappingURL=index.js.map

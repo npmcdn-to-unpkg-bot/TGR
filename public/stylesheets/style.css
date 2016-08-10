@@ -22,7 +22,10 @@ html, body {
 }
 .footer, .push {
   height: 155px; /* .push must be the same height as .footer */
+  margin-top: 20px;
+}
+
+.footer {
   background-color: #1b1818;
   color: white;
-  margin-top: 20px;
 }

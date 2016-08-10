@@ -106,8 +106,8 @@ var System = require('systemjs');
 
 System.transpiler = 'traceur';
 
-// loads './application.js' from the current directory
-System.import('./application.js').then(function(m) {
+// loads './app.js' from the current directory
+System.import('./app.js').then(function(m) {
   console.log(m);
 });
 ```

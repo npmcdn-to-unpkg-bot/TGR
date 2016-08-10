@@ -16,7 +16,7 @@ export declare const modelGroupProvider: any;
  *
  * ```typescript
  * @Component({
- *   selector: 'my-src',
+ *   selector: 'my-app',
  *   template: `
  *     <div>
  *       <h2>Angular forms Example</h2>

@@ -35,7 +35,7 @@ export declare abstract class ChangeDetectorRef {
      * }
      *
      * @Component({
-     *   selector: 'src',
+     *   selector: 'app',
      *   changeDetection: ChangeDetectionStrategy.OnPush,
      *   template: `
      *     <cmp><cmp>
@@ -93,7 +93,7 @@ export declare abstract class ChangeDetectorRef {
      * }
      *
      * @Component({
-     *   selector: 'src',
+     *   selector: 'app',
      *   providers: [DataProvider],
      *   template: `
      *     <giant-list><giant-list>
@@ -179,7 +179,7 @@ export declare abstract class ChangeDetectorRef {
      * }
      *
      * @Component({
-     *   selector: 'src',
+     *   selector: 'app',
      *   providers: [DataProvider],
      *   template: `
      *     Live Update: <input type="checkbox" [(ngModel)]="live">

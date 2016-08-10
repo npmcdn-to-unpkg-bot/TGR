@@ -44,7 +44,7 @@ export { MaxLengthValidator, MinLengthValidator, PatternValidator, RequiredValid
  *
  * ```typescript
  * @Component({
- *   selector: 'my-src',
+ *   selector: 'my-app',
  *   directives: [FORM_DIRECTIVES]
  * })
  * class MyApp {}

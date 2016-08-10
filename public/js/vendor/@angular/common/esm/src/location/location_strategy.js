@@ -51,7 +51,7 @@ export class LocationStrategy {
  *
  * bootstrap(AppCmp, [
  *   ROUTER_PROVIDERS,
- *   {provide: APP_BASE_HREF, useValue: '/my/src'}
+ *   {provide: APP_BASE_HREF, useValue: '/my/app'}
  * ]);
  * ```
  * @stable

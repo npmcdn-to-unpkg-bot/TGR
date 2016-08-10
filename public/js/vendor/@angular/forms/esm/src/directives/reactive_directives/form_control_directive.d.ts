@@ -21,7 +21,7 @@ export declare const formControlBinding: any;
  *
  *  ```typescript
  * @Component({
- *   selector: 'my-src',
+ *   selector: 'my-app',
  *   template: `
  *     <div>
  *       <h2>Bind existing control example</h2>

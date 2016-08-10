@@ -16,7 +16,7 @@ import { Response } from './static_response';
  * import {Http, HTTP_PROVIDERS} from '@angular/http';
  * import 'rxjs/add/operator/map'
  * @Component({
- *   selector: 'http-src',
+ *   selector: 'http-app',
  *   viewProviders: [HTTP_PROVIDERS],
  *   templateUrl: 'people.html'
  * })
@@ -98,6 +98,10 @@ export declare class Http {
      * Performs a request with `head` http method.
      */
     head(url: string, options?: RequestOptionsArgs): Observable<Response>;
+    /**
+     * Performs a request with `options` http method.
+     */
+    options(url: string, options?: RequestOptionsArgs): Observable<Response>;
 }
 /**
  * @experimental

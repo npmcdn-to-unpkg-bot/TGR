@@ -3,7 +3,7 @@
  *
  * The default implementation of `ExceptionHandler` prints error messages to the `Console`. To
  * intercept error handling,
- * write a custom exception handler that replaces this default as appropriate for your src.
+ * write a custom exception handler that replaces this default as appropriate for your app.
  *
  * ### Example
  *
@@ -15,7 +15,7 @@
  *   }
  * }
  *
- * bootstrap(MyApp, {provide: ExceptionHandler, useClass: MyExceptionHandler}])
+ * bootstrap(MyApp, [{provide: ExceptionHandler, useClass: MyExceptionHandler}])
  *
  * ```
  * @stable
