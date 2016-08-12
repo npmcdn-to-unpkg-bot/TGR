@@ -6,5 +6,7 @@ import {Component} from "@angular/core";
     styleUrls: ['questionAsk.component.css'],
 })
 export class QuestionAskComponent {
+    upload() {
 
+    }
 }
